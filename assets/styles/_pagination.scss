@@ -1,0 +1,14 @@
+.pagination {
+  display: flex;
+  margin: 14px 0;
+
+  &__item {
+    color: $color-white;
+    text-decoration: none;
+    padding: 8px 12px;
+
+    &.active {
+      color: $color-dark-gray;
+    }
+  }
+}

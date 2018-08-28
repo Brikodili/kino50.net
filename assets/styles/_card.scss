@@ -1,0 +1,23 @@
+.card {
+  &__title {
+    font-size: 15px;
+    font-weight: 400;
+    color: $color-light-gray;
+    margin: 0;
+    padding: 7px 10px 0;
+    overflow: hidden;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 0;
+  }
+}
+
+.stars {
+  background: url("../img/stars.svg") no-repeat;
+  background-size: contain;
+  height: 20px;
+  width: 100px;
+}

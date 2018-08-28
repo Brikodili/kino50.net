@@ -1,0 +1,25 @@
+.main {
+  &__title {
+    font-size: 22px;
+    margin: 24px 16px 24px 32px;
+  }
+
+  &__navigation {
+    display: flex;
+  }
+
+  .navigation {
+    margin: 0;
+    padding-left: 32px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #4d5d6c;
+
+    &__item {
+      white-space: nowrap;
+      &.active {
+        color: $color-orange;
+        border-bottom: 3px solid $color-orange;
+      }
+    }
+  }
+}

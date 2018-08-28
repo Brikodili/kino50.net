@@ -1,0 +1,28 @@
+body {
+  font-family: $font-family;
+  background-color: $background-color;
+  box-sizing: border-box;
+  color: $color-white;
+
+  ul {
+    list-style: none;
+  }
+}
+
+.page-inner {
+  display: flex;
+}
+
+.stars {
+  background: url("../img/stars.svg") no-repeat;
+  background-size: contain;
+  height: 20px;
+  width: 100px;
+}
+
+.page-description {
+  font-size: 14px;
+  line-height: 20px;
+  color: $color-light-gray;
+  padding: 16px;
+}

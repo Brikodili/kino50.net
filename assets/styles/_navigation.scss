@@ -1,0 +1,15 @@
+.navigation {
+  padding: 18px 60px;
+  margin: 0;
+
+  &__item {
+    font-size: 14px;
+    color: $color-white;
+    text-decoration: none;
+    padding: 16px;
+
+    &.active {
+      border-bottom: 3px solid $color-white;
+    }
+  }
+}
