@@ -372,7 +372,7 @@ body ul {
   width: 48px;
 }
 .header__logo {
-  flex: 2 2;
+  flex: 2;
   display: block;
   font-size: 25px;
   font-weight: 600;
@@ -534,6 +534,33 @@ body ul {
   color: #9e9e9e;
   text-decoration: none;
   padding: 0 4px;
+}
+
+@media (max-width: 850px) {
+  .header .navigation {
+    display: none;
+  }
+
+  .navigation__item_hidden {
+    display: none;
+  }
+
+  .page-inner {
+    flex-direction: column;
+  }
+
+  .filter {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 220px;
+    width: 100%;
+  }
+  .filter__block {
+    height: 200px;
+  }
+  .filter__block_by-column {
+    column-count: 2;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

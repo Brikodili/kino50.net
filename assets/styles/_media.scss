@@ -1,0 +1,33 @@
+@media (max-width: 850px) {
+  .header {
+    .navigation {
+      display: none;
+    }
+  }
+
+ .navigation {
+   &__item {
+     &_hidden {
+       display: none;
+     }
+   }
+ }
+
+  .page-inner {
+    flex-direction: column;
+  }
+
+  .filter {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 220px;
+    width: 100%;
+
+    &__block {
+      height: 200px;
+      &_by-column {
+        column-count: 2;
+      }
+    }
+  }
+}
