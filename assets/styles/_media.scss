@@ -5,16 +5,14 @@
     }
   }
 
- .navigation {
-   &__item {
-     &_hidden {
-       display: none;
-     }
-   }
- }
-
   .page-inner {
     flex-direction: column;
+  }
+
+  .main {
+    &__sort {
+      display: none;
+    }
   }
 
   .filter {

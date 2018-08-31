@@ -6,13 +6,20 @@
 
   &__navigation {
     display: flex;
+    border-bottom: 1px solid #4d5d6c;
+  }
+
+  &__sort {
+    display: inline-block;
+    line-height: 3.25;
+    padding-left: 32px;
   }
 
   .navigation {
     margin: 0;
-    padding-left: 32px;
     padding-bottom: 16px;
-    border-bottom: 1px solid #4d5d6c;
+    padding-left: 10px;
+    border: 0;
 
     &__item {
       white-space: nowrap;

@@ -424,12 +424,18 @@ body ul {
 }
 .main__navigation {
   display: flex;
+  border-bottom: 1px solid #4d5d6c;
+}
+.main__sort {
+  display: inline-block;
+  line-height: 3.25;
+  padding-left: 32px;
 }
 .main .navigation {
   margin: 0;
-  padding-left: 32px;
   padding-bottom: 16px;
-  border-bottom: 1px solid #4d5d6c;
+  padding-left: 10px;
+  border: 0;
 }
 .main .navigation__item {
   white-space: nowrap;
@@ -541,12 +547,12 @@ body ul {
     display: none;
   }
 
-  .navigation__item_hidden {
-    display: none;
-  }
-
   .page-inner {
     flex-direction: column;
+  }
+
+  .main__sort {
+    display: none;
   }
 
   .filter {
